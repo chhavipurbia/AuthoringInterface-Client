@@ -679,7 +679,6 @@ const USR = (props) => {
             }
           </div>
         </div>
-        
         {renderConceptList()}
       </>
   )
