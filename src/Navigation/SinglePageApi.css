@@ -1,4 +1,6 @@
 .container {
+  margin: 1%;
+
   max-width: 100%;
 }
 
@@ -34,17 +36,18 @@
   font-size: 18px;
 }
 
-
+#but{
+  width:30px;
+  height:30px;
+}
 
 .accordion {
   margin-bottom: 10px;
-  margin-left: 15%;
-  margin-right: 15%;
-  
+  margin-top: 10px;
+
 }
 
-.accordion button {
-
+.accordion-button {
   padding: 10px 20px;
   font-size: 30px;
   font-weight: bold;
@@ -92,4 +95,14 @@
   color: #f7f7f7;
   width:200px;
   margin-left: 40%;
+}
+#reset{
+  margin: 100px 15%;
+  width:70%;
+  height:80px;
+  border: none;
+  border-radius: 50px;
+}
+.box{
+  height: 150px;
 }
